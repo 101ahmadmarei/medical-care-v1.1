@@ -1,0 +1,58 @@
+export const data = [
+  {
+    id: 1,
+    title: "Nutritional support",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p8.png",
+  },
+  {
+    id: 2,
+    title: "Nutritional support",
+    type: "Technology",
+    price: 8.48,
+    image: "/assets/images/p1.png",
+  },
+  {
+    id: 3,
+    title: "Orthopedics",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p2.png",
+  },
+  {
+    id: 4,
+    title: "Cancer center",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p3.png",
+  },
+  {
+    id: 5,
+    title: "Orthopedics",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p4.png",
+  },
+  {
+    id: 6,
+    title: "Cancer center",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p5.png",
+  },
+  {
+    id: 7,
+    title: "Cancer center",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p6.png",
+  },
+  {
+    id: 8,
+    title: "Prenatal care",
+    type: "Technology",
+    price: 6.48,
+    image: "/assets/images/p1.png",
+  },
+];

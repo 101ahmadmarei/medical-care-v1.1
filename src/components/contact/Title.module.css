@@ -1,0 +1,35 @@
+.title {
+  width: 80%;
+  margin: 0;
+}
+
+.title h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+
+  letter-spacing: 0.1px;
+  margin-top: 0;
+
+  /* text-color */
+
+  color: #252b42;
+}
+
+.title p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}

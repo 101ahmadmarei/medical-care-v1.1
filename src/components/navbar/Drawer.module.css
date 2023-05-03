@@ -1,0 +1,18 @@
+.drawer {
+  background-color: #f6f6f6;
+}
+.drawer .text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}

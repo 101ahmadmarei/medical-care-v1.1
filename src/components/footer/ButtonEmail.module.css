@@ -1,0 +1,28 @@
+.button {
+}
+.button div {
+  display: flex;
+}
+.button input {
+  padding: 15px 20px;
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+}
+
+.button button {
+  padding: 15px 22.5px;
+  border: solid 1px #23a6f0;
+  background-color: #23a6f0;
+  color: white;
+}
+.button p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 28px;
+  /* identical to box height, or 233% */
+
+  letter-spacing: 0.2px;
+}

@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}

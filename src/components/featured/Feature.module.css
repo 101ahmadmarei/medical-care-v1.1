@@ -1,0 +1,61 @@
+.title {
+}
+
+.title h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  letter-spacing: 0.2px;
+
+  /* text-color */
+
+  color: #252b42;
+  height: 50px;
+  margin: 16px 0 0;
+}
+
+.title h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+  margin-top: 10px;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.new {
+  /* padding: 0px 10px; */
+  position: absolute;
+  width: 58px;
+  height: 24px;
+  left: 20px;
+  top: 20px;
+  text-align: center;
+  /* danger-color */
+  color: white;
+  background: #e74040;
+  border-radius: 3px;
+}

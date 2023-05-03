@@ -1,0 +1,74 @@
+.content {
+  position: relative;
+  z-index: 1;
+  width: 35%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.content h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 24px;
+  z-index: 1;
+  color: white;
+  margin-bottom: 0;
+  /* identical to box height, or 141% */
+
+  letter-spacing: 0.1px;
+}
+.content h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+  z-index: 1;
+  color: white;
+  letter-spacing: 0.2px;
+  margin: 20px 0;
+}
+
+.content h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  z-index: 1;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100%; */
+    z-index: 1;
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  .content h1 {
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.2;
+    margin-bottom: 16px;
+  }
+  .content h6 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+  }
+}

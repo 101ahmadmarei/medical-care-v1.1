@@ -1,0 +1,54 @@
+.root1 {
+  background-color: #f5f8fd;
+  padding: 3rem 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: min-content; */
+}
+
+.root1 h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  /* text-align: center; */
+  letter-spacing: 0.1px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+.root1 h6 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  /* text-align: center; */
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}
+.root1 h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  /* text-align: center; */
+  letter-spacing: 0.1px;
+
+  /* success-color */
+
+  color: #2dc071;
+}

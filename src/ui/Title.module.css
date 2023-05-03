@@ -1,0 +1,52 @@
+.title {
+}
+
+.title h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}
+
+.title h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 58px;
+  /* identical to box height, or 118% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* text-color */
+
+  color: #252b42;
+}
+
+.title h5 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+  width: 45%;
+  margin: auto;
+}

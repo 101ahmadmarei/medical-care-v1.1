@@ -1,0 +1,19 @@
+.active {
+  background-color: rgb(238, 238, 238);
+}
+.navLink {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 24px;
+  /* identical to box height, or 141% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+}

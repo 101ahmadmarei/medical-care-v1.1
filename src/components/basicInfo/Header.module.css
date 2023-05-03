@@ -1,0 +1,94 @@
+.root {
+  background-image: url("/public/assets/images/mainImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 50px;
+  margin-bottom: 10%;
+}
+
+.root .overlay {
+  background-color: rgba(0, 0, 0, 0.25);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.root .content {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 35%;
+}
+.root h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+  line-height: 24px;
+  z-index: 1;
+  color: white;
+  margin-bottom: 0;
+  /* identical to box height, or 141% */
+
+  letter-spacing: 0.1px;
+}
+.root h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  /* or 114% */
+  z-index: 1;
+  color: white;
+  letter-spacing: 0.2px;
+  margin: 20px 0;
+}
+
+.root h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  z-index: 1;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+.images {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(25%);
+}
+
+@media screen and (max-width: 1300px) {
+  .images {
+    position: relative;
+    justify-content: center;
+    bottom: 0;
+    transform: initial;
+  }
+}
+
+@media (max-width: 768px) {
+  .root {
+    background-image: url("/public/assets/images/hero-cover.3.png");
+    height: 100%;
+    margin-bottom: 200px;
+  }
+  .images {
+    transform: translateY(25%);
+  }
+}

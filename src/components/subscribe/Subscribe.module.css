@@ -1,0 +1,46 @@
+.root {
+  margin-top: 10px;
+  background-color: #2a7cc7;
+  width: 100%;
+
+  padding: 80px 30px 60px;
+  box-sizing: border-box;
+}
+.content {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 58px;
+  /* or 118% */
+
+  letter-spacing: 0.2px;
+
+  /* light-text-color */
+
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.title h6 {
+  /* paragraph */
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+  margin-bottom: 16px;
+  letter-spacing: 0.2px;
+  /* light-text-color */
+
+  color: #ffffff;
+}
