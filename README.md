@@ -23,4 +23,4 @@ The home page showcases various sections and displays the products entered in th
 
 ## Deployment
 
-The project is hosted on Firebase.  and you can access the live version [https://medical-care-d678c.web.app/Home](live URL)
+The project is hosted on Firebase.  and you can access the live version [https://medical-care-d678c.web.app/Home] (live URL)
